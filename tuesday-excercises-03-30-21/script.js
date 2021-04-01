@@ -129,7 +129,7 @@ function useIndexOf() {
 
 
 function useJoin() {
-    var arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+    var arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
     return arr.join('-');
 }
 
