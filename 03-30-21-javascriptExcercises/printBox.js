@@ -12,4 +12,4 @@ function printBox(n, m) {
         //console.log("*".repeat(j));
     }
 }
-//printBox(5, 5);
+printBox(6, 5);

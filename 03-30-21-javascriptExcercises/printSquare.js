@@ -10,4 +10,4 @@ function printSquare(n) {
     //console.log("*".repeat(i), "*".repeat(j)); //original attempt, creates second block of *
 }
 
-//printSquare(10);
+printSquare(10);
