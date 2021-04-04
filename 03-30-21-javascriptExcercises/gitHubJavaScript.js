@@ -5,7 +5,7 @@ function madlib(name, subject) {
 
 }
 
-console.log(madlib());
+//console.log(madlib());
 
 
 function tipAmount(bill, service) {
@@ -26,7 +26,7 @@ function tipAmount(bill, service) {
     }
 }
 
-tipAmount(100, 'bad');
+//tipAmount(100, 'bad');
 
 function totalAmount(bill, service) {
     if (service == 'good') {
@@ -49,8 +49,93 @@ function totalAmount(bill, service) {
     }
 }
 
-totalAmount(100, 'fair');
+//totalAmount(100, 'fair');
 
 function printNumbers(n, m) {
-    when
+
+    for (n == 0; n <= m; n++) {
+        console.log(n)
+    }
+}
+
+//printNumbers(1, 10);
+
+function printNumbers2(n, m) {
+    while (n <= m) {
+        console.log(n);
+        n = n + 1;
+    }
+}
+
+//printNumbers2(1, 10);
+
+
+function printSquare(n) {
+    var size = n;
+    for (i = 0; i < size; i++) {
+        for (j = 0; j < size; j++) {
+
+        }
+        //not sure why this works
+        console.log("*".repeat(j));
+    }
+    //console.log("*".repeat(i), "*".repeat(j)); //original attempt, creates second block of *
+}
+
+//printSquare(10);
+
+
+//Come back to later
+function printBox(n, m) {
+    var length = n;
+    var width = m;
+    for (i = 0; i < length; i++) {
+        for (j = 0; j < width; j++) {
+        } if (i == 0 || i == length || j == 0 || j == width) {
+            console.log("*".repeat(j));
+        } else {
+            console.log(" ");
+        }
+        //console.log("*".repeat(j));
+    }
+}
+//printBox(5, 5);
+
+
+
+
+
+//come back to later
+function printBanner(x) {
+    var text = x;
+    var star = "*";
+    for (star = 0; star < text; star++) {
+        for (j = 0; j < star; j++) {
+            console.log("*".length(j));
+        }
+    }
+}
+
+
+
+printBanner("hello");
+
+
+function leetspeak(x) {
+    var text = x;
+    if (x = "a") {
+
+    } else if (x = "g") {
+
+    } else if (x = "g") {
+
+    } else if (x = "l") {
+
+    } else if (x = "o") {
+
+    } else if (x = "s") {
+
+    } else if (x = "t") {
+
+    }
 }
