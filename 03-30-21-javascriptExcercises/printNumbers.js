@@ -5,4 +5,4 @@ function printNumbers(n, m) {
     }
 }
 
-//printNumbers(1, 10);
+console.log(printNumbers(1, 10));

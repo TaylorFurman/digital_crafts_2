@@ -5,4 +5,5 @@ function printNumbers2(n, m) {
     }
 }
 
-//printNumbers2(1, 10);
+printNumbers2(1, 10);
+
