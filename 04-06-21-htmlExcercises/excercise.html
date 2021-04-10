@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<!--
     <h1>You can write your thoughts here</h1>
     <h2>Or rant about whatever grinds your gears</h2>
     <h3>Like that Jeremy guy, for example</h3>
@@ -32,8 +33,191 @@
 
     <ol>
         <li>Decide if it's an ordered list or not</li>
-        <li>If it's not an ordered list, use the ul tag, otherwise use the ol tag</li>
+        <li>If it's not an ordered list, use the ul tag, otherwise use the ol tag
+            <ul><li>Use Li tags nested in the list of your list items</li>
+                <ol><li>Curveball! You can nest lists inside each other</li></ol></ul><li>You've got this, I belive in you!</li></ol></li></li>
     </ol>
+
+    <p>Here's a couple ways you can express yourself
+        <ul>
+            <li>If you want to sound normal, just use a regular li tag here</li>
+            <li><i>If you want to sound interesting, try the italics tag</i></li>
+            <li><b>If you want to sound annoying, try the bold tag</b></li>
+        </ul>
+    You did it!  You should be proud of yourself.<br><p><i><b>yOu DiD iT! yOu ShOuLd Be PrOuD oF yOuRsElF</b></i></p></p>
+
+    <img src="https://www.furman.edu/academic-affairs/wp-content/uploads/sites/13/2018/11/pbk2.jpg" alt="People posing for pictures" width="1000"height="600">
+    <a href="https://www.google.com/"><b>Google it!</b></a>
+    <a href="https://www.furman.edu/"><img src="https://www.furman.edu/academic-affairs/wp-content/uploads/sites/13/2018/11/pbk2.jpg"alt="People posing for pictures" width="1000"height="600"></a>
+-->
+<!--
+Create a form that includes a input element and can except text from a user.
+
+Must be able to include text in the input field
+Must use at least one fieldset element
+Must Contain Labels
+-->
+<form>
+    <fieldset>
+        <label for="experience-input"> Tell us about your Experience! </label>
+        <p>
+          <textarea id="experience-input" name="experience">
+          </textarea>
+        </p>
+      </fieldset>
+</form>
+
+<!--Create a form that includes a input element that gives a user to select only one of many options.
+
+Only one selection should be able to be selected at a time.
+Must use at least one fieldset element
+Must contain labels  -->
+<form>
+    <fieldset>
+        <legend>Best food type?</legend>
+        <p>
+            <label>
+                <input type="radio" id="Yes" name="question"value="yes" checked />Italian
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" id="Yes" name="question"value="no"/>Tex-Mex
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" id="Yes" name="question"value="no"/>Asian
+            </label>
+        </p>
+    </fieldset>
+</form>
+
+<!--
+    Create a form that includes a input element that gives a user a dropdown to select only one of many options.
+
+Only one selection should be able to be selected at a time.
+Must use at least one fieldset element
+Must contain labels
+-->
+
+<form>
+    <fieldset>
+        <label for="password-check">Select security question.</label>
+        <select name = "password" id="password-check">
+            <option value="" disabled selected>--Please select an option--</option>
+            <option value="answer1">First dog</option>
+            <option value="answer2">Favorite teacher</option>
+            <option value="answer3">Mother's maiden name</option>
+            <option value="answer4">Elementary School</option>
+        </select>
+    </fieldset>
+</form>
+
+
+<!--
+Create a form that allows a user to order a pizza.
+
+Should have have input fields for:
+Types of Crust
+Toppings
+Whether it's delivery or pick up
+Address
+Name for order
+Additional Instructions
+Must use at least one fieldset element
+Must contain labels
+-->
+
+
+<form>
+    <fieldset>
+        <legend>
+            What kind of crust would you like?
+        </legend>
+        <p>
+            <label><input type = "radio" id="Yes" name="question"value="yes" checked/>New york style</label>
+        </p>
+        <p>
+            <label><input type="radio" id="Yes" name="question"value="no"/>Thin crust</label>
+        </p>
+        <p>
+            <label><input type="radio" id="Yes" name="question"value="no"/>Stuffed crust</label>
+        </p>
+        
+    </fieldset>
+    <fieldset>
+        <legend>
+            What kind of topings would you like on your pizza? (Choose more than one)
+        </legend>
+        <p>
+            <label><input type = "checkbox"/>Olives</label>
+        </p>
+        <p>
+            <label><input type = "checkbox"/>Onions</label>
+        </p>
+        <p>
+            <label><input type = "checkbox"/>Pepperoni</label>
+        </p>
+        <p>
+            <label><input type = "checkbox"/>Sausage</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Delivery or pickup?
+        </legend>
+        <p>
+            <label><input type = "radio" id="Yes" name="question"value="yes" checked/>Delivery</label>
+        </p>
+        <p>
+            <label><input type="radio" id="Yes" name="question"value="no"/>Pickup?</label>
+        </p>
+        
+        
+    </fieldset>
     
+    <fieldset>
+        <label>
+            Name
+            <input type="text" id="name" name="user-name"/>
+            <label></label
+          ></label>
+          <br>
+          <label>
+            Street Address
+            <input type="text" id="name" name="user-name"/>
+            <label></label
+          ></label>
+          <br>
+          <label>
+            City
+            <input type="text" id="name" name="user-name"/>
+            <label></label
+          ></label>
+          <br>
+          <label>
+            State
+            <input type="text" id="name" name="user-name"/>
+            <label></label
+          ></label>
+          <br>
+          <label>
+            Zipcode
+            <input type="text" id="name" name="user-name"/>
+            <label></label
+          ></label>
+        </fieldset>
+
+        
+        <fieldset>
+            <label for="experience-input"> Additional Instructions? </label>
+            <p>
+                <textarea id="experience-input" name="experience">
+                </textarea>
+            </p>
+            </fieldset>
+        
+</form> 
 </body>
 </html>
