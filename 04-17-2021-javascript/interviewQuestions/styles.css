@@ -1,0 +1,45 @@
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+
+.square{
+    width: 0px;
+    height: 0px;
+    border: 100px solid black;
+}
+
+.oval{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border-top: 100px solid green;
+    border-bottom: 100px solid green;
+    border-left: 75px solid green;
+    border-right: 75px solid green;
+}
+
+.circle{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border: 100px solid grey;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid yellowgreen;
+  }
+  
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 50px solid firebrick;
+  }

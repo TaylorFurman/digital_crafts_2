@@ -25,8 +25,10 @@ function fizzNumbers(startNumber, endNumber){
 
 function naturalNumbers(x){
     var i = x;
+    var total = 0;
     for (i =0; i<1000; i++){
         if (i < 1000 && i % 3 ==0 || i % 5 ==0){
+            i += i;
             console.log(i);
         }
     }
