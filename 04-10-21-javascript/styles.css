@@ -1,3 +1,27 @@
-p {
-   color: red;
+body{
+   
 }
+
+.main{
+   
+}
+
+.name{
+   color: red;
+   font-size: 40px;
+
+}
+.bio{
+   color: red;
+   width: 25%;
+   ;
+}
+
+.headshot{
+   
+}
+
+.socialMedia{
+   color: black;
+}
+
