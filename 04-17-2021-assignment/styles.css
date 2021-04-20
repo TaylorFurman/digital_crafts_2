@@ -1,6 +1,60 @@
-.black-square{
-    width:0px;
-    height:0px;
-    border: 50px solid black;
+*{
+    box-sizing: border-box;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    width:20%;
+    height:0px;  
+}
+
+.side{
+    flex-direction: row;
+}
+.shape{
+    flex-grow: 1;
+    flex-direction: column;
+    min-width: 50px;
+    min-height: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 0px;
+    height: 0px;
+    border: 100px solid;
+}
+
+.yellow{
+    color: yellow;
     
+}
+.red{
+    color: red;
+}
+
+.grey{
+    color: grey;
+}
+
+.blue{
+    color: blue;
+}
+
+.double{
+    flex-grow: 2;
+}
+
+.green{
+    color: green;
+}
+
+.tripple{
+    flex-grow: 3;
 }
