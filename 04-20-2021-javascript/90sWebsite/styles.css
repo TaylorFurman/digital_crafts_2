@@ -1,0 +1,39 @@
+.title{
+    list-style-type: none;
+    display: flex;
+    color:rgba(75, 63, 63, 0.897);
+    margin: auto;
+    border: solid;
+
+}
+.title ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu li{
+    list-style-type: none; 
+}
+
+.menu{
+    display: block;
+    width: 60px;
+}
+
+.navBarLink{
+    display: block;
+    width: 60px;
+    background-color:rgba(180, 167, 167, 0.897);
+    width: 200px;
+}
+
+.navBarLink a:hover{
+    background-color: red;
+    color: white;
+}
+.navBarLink a.active{
+    background-color: green;
+    color: white;
+}
