@@ -1,0 +1,16 @@
+{
+  "name": "likeypix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:create": "createdb.exe -U postgres likeypixdb",
+    "db:destroy": "dropdb.exe -U postgres likeypixdb",
+    "db:init": "psql.exe -U postgres -f schema.sql likeypixdb",
+    "db:seed": "psql -U postgres -f seed.sql likeypixdb",
+    "db:reset": "npm run db:destroy; npm run db:create && npm run db:init && npm run db:seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
